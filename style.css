@@ -143,6 +143,7 @@ h1 {
 
 .popup-btn {
 	display: inline-block;
+	text-align: center;
 	width: 30%;
 	padding: 10px 22px;
 	margin: 20px;
@@ -157,4 +158,15 @@ h1 {
 .popup-btn:hover {
 	color: #fff;
 	background-color: var(--light-blue);
+}
+@media (max-width: 566px) {
+	.add-btn {
+		margin-top: 20px;
+	}
+	.popup {
+		width: 100%;
+		bottom: 0;
+		border-radius: 0px;
+		overflow: hidden;
+	}
 }
